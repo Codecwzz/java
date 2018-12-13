@@ -12,7 +12,7 @@ Oracle 官网JDK 8u191 [下载链接](https://www.oracle.com/technetwork/java/ja
 
 #### 2、配置环境变量
 对于Java程序开发而言，主要会使用JDK的两个命令：javac.exe、java.exe。  
-路径：`C:\Program Files (x86)\Java\jdk1.8.0_191\bin`。但是这些命令由于不属于windows自己的命令，所以要想使用，就需要进行路径配置。
+路径：`C:\Program Files (x86)\Java\jdk1.8.0_191\bin`。但是这些命令由于不属于windows自己的命令，所以要想使用，就需要进行路径配置。 
 新建系统变量`JAVA_HOME`值 `C:\Program Files (x86)\Java\jdk1.8.0_191`,系统变量`PATH`后面加上`%JAVA_HOME%\bin`
 
 #### 3、确认环境配置是否正确
