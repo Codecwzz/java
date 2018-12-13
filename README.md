@@ -1,2 +1,2 @@
 # java
-java learn
+简单的java知识
