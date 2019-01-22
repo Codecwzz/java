@@ -7,4 +7,5 @@
 ![Eclipse查看源码_2](images/Eclipse查看源码_2.png)  
 
 ### Step3
-
+Add-->Standard VM -->JRE home 选择jdk的安装目录 finish 勾选jdk Apply 
+![Eclipse查看源码_3](images/Eclipse查看源码_3.png)  
