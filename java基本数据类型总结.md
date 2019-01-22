@@ -24,9 +24,18 @@ char：16位，存储Unicode码，用单引号赋值。
 Java决定了每种简单类型的大小。这些大小并不随着机器结构的变化而变化。这种大小的不可更改正是Java程序具有很强移植能力的原因之一。
 下表列出了Java中定义的简单类型、占用二进制位数及对应的封装器类。  
 
-| 简单类型 | boolean |
-| :-----: | :-----: | 
-|二进制位数|1|
+| 简单类型 | boolean | byte | char | short | int | long | float | double | void|  
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | 
+|二进制位数|1|8|16|16|32|64|32|64|--|  
+|封装器类|Boolean|Byte|Character|Short|Integer|Long|Float|Double|Void|  
+
+对于数值类型的基本类型的取值范围，我们无需强制去记忆，因为它们的值都已经以常量的形式定义在对应的包装类中了。如：  
+基本类型byte 二进制位数：Byte.SIZE最小值：Byte.MIN_VALUE最大值：Byte.MAX_VALUE  
+基本类型short二进制位数：Short.SIZE最小值：Short.MIN_VALUE最大值：Short.MAX_VALUE 
+基本类型char二进制位数：Character.SIZE最小值：Character.MIN_VALUE最大值：Character.MAX_VALUE  
+基本类型double 二进制位数：Double.SIZE最小值：Double.MIN_VALUE最大值：Double.MAX_VALUE  
+
+
 
 
 
